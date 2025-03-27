@@ -1,0 +1,38 @@
+footer {
+    background-color: #583312;
+}
+.adress{
+    text-align: center;
+    
+    
+}
+#footer_items{
+    order: -1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 8% 24px 8%;
+    
+    
+
+}
+#copyright{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+#mapa{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   height: auto;
+    text-align: center;
+    
+}
+@media screen and (max-width: 600px){
+    #footer_items{
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+}
